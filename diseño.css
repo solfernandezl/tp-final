@@ -285,6 +285,8 @@ footer ul{
     }
     .formulario{
         grid-area: formulario;
+        margin: auto;
+        height: 700px;
     }
     .mapa{
         grid-area: maps;
