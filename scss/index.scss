@@ -1,0 +1,29 @@
+#menu{
+    background-color: rgb(49, 163, 192);
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Unna', serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#menu :hover{
+    text-decoration-line: underline;
+}
+.carousel{
+    margin: auto;
+    justify-content: center;
+}
+#footer{
+    background-color: rgb(49, 163, 192);
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Unna', serif;
+    color: $colortextnav;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.textfot{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+}

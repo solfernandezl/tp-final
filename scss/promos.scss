@@ -1,0 +1,49 @@
+.promos{
+    width: 90%;
+    height: 200px;
+    margin: 20px auto;  
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    grid-template-areas: 
+    "promo1 promo2";
+    gap: 10px; 
+}
+.promo1{
+    border: solid 3px goldenrod;
+    font-size: 40px;
+    text-align: center;
+    grid-area: promo1;
+}
+.promo2{
+    border: solid 3px goldenrod;
+    font-size: 40px;
+    text-align: center;
+    grid-area: promo2;
+}
+.promo1:hover{
+    opacity: 30%;
+    color: goldenrod;
+    text-decoration: underline;
+}
+.promo2:hover{
+    opacity: 30%;
+    color: goldenrod;
+    text-decoration: underline;
+}
+.textpromo{
+    animation-duration: 10s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        }
+    50% {
+        opacity: 1;
+        }
+    100% {
+      opacity: 0;
+        }
+}

@@ -1,0 +1,122 @@
+@media screen and (max-width:768px){
+    body{
+        background-color: black;
+        color: white;
+    }
+    nav ul{
+        background-color: rgb(241, 111, 118);
+        color: black;
+    }
+    footer ul{
+        background-color: rgb(241, 111, 118);
+        color: black;
+    }
+    .promos{ 
+        display: grid;
+        gap: 0.8rem;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: 
+        "promo1"
+        "promo2";
+        gap: 10px; 
+    }
+    .promo1{
+        border: solid 3px goldenrod;
+        font-size: 30px;
+        text-align: center;
+        grid-area: promo1;
+    }
+    .promo2{
+        border: solid 2px goldenrod;
+        font-size: 30px;
+        text-align: center;
+        grid-area: promo2;
+    }
+    .promo1:hover{
+        opacity: 30%;
+        color: goldenrod;
+        text-decoration: underline;
+    }
+    .contacto{
+        display: grid;
+        margin: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "formulario"
+        "maps";
+    }
+    .formulario{
+        grid-area: formulario;
+        margin: auto;
+        height: 700px;
+    }
+    .mapa{
+        grid-area: maps;
+        width: 400px;
+    }
+    .direc{
+        text-align: center;
+    }
+}    
+@media screen and (max-width:1024px){
+    nav ul{
+        background-color: rgb(241, 111, 118);
+        color: black;
+    }
+    footer ul{
+        background-color: rgb(241, 111, 118);
+        color: black;
+    }
+    .promos{ 
+        display: grid;
+        gap: 0.8rem;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        grid-template-areas: 
+        "promo1"
+        "promo2";
+        gap: 10px; 
+    }
+    .promo1{
+        border: solid 3px goldenrod;
+        font-size: 30px;
+        text-align: center;
+        grid-area: promo1;
+        color:rgb(241, 111, 118);
+    }
+    .promo2{
+        border: solid 2px goldenrod;
+        font-size: 30px;
+        text-align: center;
+        grid-area: promo2;
+        color:rgb(241, 111, 118);
+    }
+    .promo1:hover{
+        opacity: 30%;
+        color: goldenrod;
+        text-decoration: underline;
+    }
+    .contacto{
+        display: grid;
+        margin: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "formulario"
+        "maps";
+    }
+    .formulario{
+        grid-area: formulario;
+        color: black;
+    }
+    .mapa{
+        grid-area: maps;
+        width: 200px;
+    }
+    .direc{
+        text-align: center;
+        color: rgb(241, 111, 118);
+    }
+}    
